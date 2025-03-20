@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Project 5</title>
+        <link rel="stylesheet" href="project5.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+        <script src="project5.js"></script>
+    </head>
+
+    <body>
+        <div class="center">
+            <h1>Project 5</h1>
+            <p>Logins: user1 : pass1, user2 : pass2, user3 : pass3</p>
+        </div>
+
+        <div class="center">
+
+            <h1>Send message</h1>
+            
+                <div class="panel">
+                    <input id="username" type="text" name="username" placeholder="Username">
+                    <input id="password" type="password" name="password" placeholder="Password">        
+                </div>
+
+                <div class="panel">
+                    <form id="message">
+                        <input id="send_message_box" style="height: 100px;" type="text" name="message" placeholder="Enter Message">
+                    </form>
+                </div>
+
+
+                <span id="send_status">
+
+                </span>
+
+        </div>
+
+        <div class="center">
+
+            <h1>Load message</h1>
+        
+            <div class="panel">
+                <input id='get_name' type="text" name="name" placeholder="Enter username">
+            </div>
+            
+            <div class="panel">
+                <input style="height: 100px;" id="message_box" type="text" name="name" placeholder="Message Content" readonly>
+            </div>
+
+            <span id="get_status">
+
+            </span>
+        </div>
+    </body>
+</html>

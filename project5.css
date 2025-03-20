@@ -1,0 +1,66 @@
+body {
+    /*font-family: "Monrope", Arial, sans-serif;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+div.center {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 32px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.panel {
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+p {
+    font-size: 14px;
+}
+span {
+    font-size: 12px;
+}
+input {
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+}
+input[type=text], input[type=password] {
+    display: block;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 20px;
+    font-weight: 400;
+}
+input[type=submit], button {
+    vertical-align: top;
+    /*background-image: linear-gradient(rgb(92, 158, 219), rgb(24, 109, 189));*/
+    min-width: 80px;
+    background-color: #0071e3;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+input[type=text]:focus {
+    outline: 2px solid #006edb;
+}
+input[type=submit]:hover, input[type=submit]:focus {
+    outline: none;
+    background-color: #0083f5;
+}
